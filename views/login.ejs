@@ -1,17 +1,17 @@
 <%- include('partials/header') %>
 
 <div class="container">
-  <div class="row">
+  <div class="row  justify-content-center">
 
-    <div class='col-sm-6'>
-      <img src="images/login.jpg">
+    <div class='col-md'>
+      <img src="images/login.jpg" style="width:100%;">
     </div>
-    
-    <div class="col-sm-6">
-      <div class="card log text-center justify-content-center align-items-center">
+
+    <div class="col-md">
+      <div class="card bg-light text-center align-items-center">
         <div class="card-body">
           <h2>Login</h2>
-          <br />
+          <hr/>
           <form action="/login" method="post">
             <div class="form-group">
               <label for="email">Email</label>
@@ -24,7 +24,7 @@
             <button type="submit" class="btn btn-warning">Login</button>
           </form>
         </div>
-        <div class="card social-block">
+        <div class="card social-block" style="margin-top: 30px;">
           <div class="card-body">
             <a class="btn btn-block" href="/auth/google" role="button">
               <i class="fab fa-google"></i>
@@ -32,6 +32,7 @@
             </a>
           </div>
         </div>
+        <br>
         <div class="card-body">
           <P>
             Not a member yet?
