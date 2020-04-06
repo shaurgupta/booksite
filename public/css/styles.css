@@ -1,8 +1,30 @@
 
-.col-md{
-  margin-top: 50px;
+
+html, body {
+  height: 100%;
 }
 
 .card{
-  margin-top: 80px;
+  margin: 125px auto auto auto;
+  width: 18rem;
+  color: #000;
+  background-color: rgba(245, 245, 245, 0.75);
+}
+
+.social-block{
+  margin: 10px 7px auto 7px;
+}
+
+/* SIGNUP CSS */
+
+.sign-bkgd{
+  background: url('/images/signup.jpg');
+  background-size: cover;
+}
+
+/* LOGIN CSS */
+
+.log-bkgd{
+  background: url('/images/login.jpeg');
+  background-size: cover;
 }
